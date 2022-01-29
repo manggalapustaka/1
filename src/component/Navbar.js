@@ -10,7 +10,6 @@ const Navbar = () => {
                         <img
                             className="img-fluid "
                             width="60"
-                            height="40"
                             src={logo}
                             alt=""
                         />
@@ -59,7 +58,7 @@ const Navbar = () => {
                                 </a>
                             </li>
                         </ul>
-                        <form class="d-flex  my-2 my-lg-0 justify-content-center">
+                        <form class="d-flex my-2 my-lg-0 justify-content-center">
                             <button
                                 class="btn header-btn "
                                 type="submit"

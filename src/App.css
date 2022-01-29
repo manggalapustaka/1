@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+* {
+    font-family: "Play", sans-serif;
+}
+
 /* GLOBAL */
 .card {
     border-radius: 0px;
@@ -10,10 +16,23 @@
     color: #fd7e14;
 }
 
+.btn-primary {
+    background-color: tomato;
+    color: #ffffff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: rgb(211, 89, 67);
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 1200px) {
     .nav-item > .nav-link {
         padding: 5px 20px !important;
         display: block !important;
+    }
+    .header-inner {
+        background-color: #fff !important;
     }
 }
 
@@ -35,10 +54,6 @@
 
 /* NAVBAR */
 
-.navbar-toggler-icon i {
-    color: black;
-}
-
 .header-inner {
     position: absolute;
     top: 0;
@@ -55,7 +70,6 @@
 
 .nav-item .nav-link {
     display: block;
-    line-height: 36px;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
@@ -69,16 +83,6 @@
 
 .nav-item .nav-link:hover {
     color: tomato;
-}
-
-.btn-primary {
-    background-color: tomato;
-    color: #ffffff;
-    border: none;
-}
-.btn-primary:hover {
-    background-color: rgb(211, 89, 67);
-    cursor: pointer;
 }
 
 .header-btn {
