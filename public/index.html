@@ -9,9 +9,101 @@
 
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+        <!--fontawesome-->
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+
+        <!-- FONT-FAMILY -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                font-family: "Roboto", sans-serif;
+            }
+        </style>
         <title>Manggala Pustaka</title>
     </head>
     <body>
         <div id="root"></div>
     </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var navbar = $(".header-inner");
+            $(window).scroll(function () {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass("navbar-scroll");
+                } else {
+                    navbar.addClass("navbar-scroll");
+                }
+            });
+        });
+
+        var multipleCardCarousel = document.querySelector("#ExampleControls");
+        if (window.matchMedia("(min-width: 1200px)").matches) {
+            var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+                interval: false,
+            });
+            var carouselWidth = $(".carousel-inner2")[0].scrollWidth;
+            var cardWidth = $(".carousel-item2").width();
+            var scrollPosition = 0;
+            $("#ExampleControls .control-next2").on("click", function () {
+                if (scrollPosition < carouselWidth - cardWidth * 4) {
+                    scrollPosition += cardWidth;
+                    $("#ExampleControls .carousel-inner2").animate(
+                        { scrollLeft: scrollPosition },
+                        200
+                    );
+                }
+            });
+            $("#ExampleControls .control-prev2").on("click", function () {
+                if (scrollPosition > 0) {
+                    scrollPosition -= cardWidth;
+                    $("#ExampleControls .carousel-inner2").animate(
+                        { scrollLeft: scrollPosition },
+                        200
+                    );
+                }
+            });
+        } else {
+            $(multipleCardCarousel).addClass("slide");
+        }
+
+        var typed = new Typed(".auto-input", {
+            strings: ["Selamat datang di Perpustakaan"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+
+        $(".logo a").on("click", function (e) {
+            if (this.hash !== "") {
+                e.preventDefault();
+
+                const hash = this.hash;
+
+                $("html, body").animate(
+                    {
+                        scrollTop: $(hash).offset().top,
+                    },
+                    800
+                );
+            }
+        });
+
+        var myAlert = document.getElementById("myAlert");
+        myAlert.style.display = "none";
+
+        function alertFunction() {
+            myAlert.style.display = "block";
+        }
+    </script>
 </html>
