@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../img/logo1.png";
+import { button1 } from "../component/button/Button";
 
 const Navbar = () => {
     return (
@@ -58,16 +59,12 @@ const Navbar = () => {
                                     Kontak
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://www.instagram.com/manggalapustaka/">
+                                    {button1()}
+                                </a>
+                            </li>
                         </ul>
-                        <form class="d-flex  my-2 my-lg-0 justify-content-center">
-                            <button
-                                class="btn header-btn "
-                                type="submit"
-                                href="https://www.instagram.com/manggalapustaka/"
-                            >
-                                Follow US
-                            </button>
-                        </form>
                     </div>
                 </div>
             </nav>

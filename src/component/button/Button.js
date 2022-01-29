@@ -3,8 +3,9 @@ import "../button/Button.css";
 
 export const button1 = () => {
     return (
-        <div className="kolea">
-            <h1>hohe</h1>
-        </div>
+        <button>
+            <span>Follow Us</span>
+            <div class="liquid"></div>
+        </button>
     );
 };
