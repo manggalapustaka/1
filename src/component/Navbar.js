@@ -59,7 +59,6 @@ const Navbar = () => {
                                 </a>
                             </li>
                         </ul>
-
                         <a href="https://www.instagram.com/manggalapustaka/">
                             {button2()}
                         </a>

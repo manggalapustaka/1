@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <section className="py-5 pb-0 footer bg-grey">
+        <section className="py-5 pb-0 footer bg-grey" id="kontak">
             <div className="container px-5 my-5 ">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-6 col-md-6 col-xl-6  mb-5 mb-lg-0">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-orange">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-dark">
                             Profile
                         </h5>
                         <div className="footer-link d-block text-secondary ">
@@ -46,12 +46,12 @@ const Footer = () => {
                                     href="#!"
                                     role="button"
                                 >
-                                    <i class="fas fa-globe"></i>
+                                    <i class="fab fa-globe"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-4">
+                    <div class="col-md-5 offset-lg-1 col-lg-5 col-xl-5 mb-5">
                         <div
                             class="alert alert-success align-items-center alert-dismissible "
                             role="alert"
@@ -66,7 +66,7 @@ const Footer = () => {
                             ></button>
                         </div>
 
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-orange">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-dark">
                             Hubungi Kami
                         </h5>
                         <form
@@ -140,10 +140,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="text-center pb-0 copyright text-secondary ">
+            <div class="text-center px-5 copyright text-secondary ">
                 © 2022 Manggala Hydrofarm. All rights reserved
-                <div className="border-footer "></div>
             </div>
+            <div className="border-footer  "></div>
         </section>
     );
 };

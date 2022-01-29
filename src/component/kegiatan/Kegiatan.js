@@ -13,9 +13,9 @@ export const Kegiatan = () => {
         <section class="kegiatan  " id="kegiatan">
             <div class="jumbotron ">
                 <div class="container pt-4 pb-3 card">
-                    <h1 class="text-orange text-uppercase mb-4 font-weight-bold text-center">
+                    <h4 class="text-dark text-uppercase mb-4 fw-bold text-center">
                         KEGIATAN PENDIDIKAN
-                    </h1>
+                    </h4>
 
                     <div
                         id="ExampleControls"
@@ -197,9 +197,9 @@ export const Kegiatan2 = () => {
         <section class="kegiatan" id="kegiatan">
             <div class="jumbotron ">
                 <div class="container pt-4 pb-3 card">
-                    <h1 class="text-orange text-uppercase mb-4 font-weight-bold text-center">
+                    <h4 class="text-dark text-uppercase mb-4 fw-bold text-center">
                         KEGIATAN MASYARAKAT
-                    </h1>
+                    </h4>
                     <div
                         id="ExampleControls"
                         class="carousel slide"

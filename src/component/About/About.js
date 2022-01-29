@@ -6,17 +6,17 @@ const About = () => {
     return (
         <section class="about  " id="about">
             <div class="jumbotron ">
-                <div class="container pt-5 pb-5 card">
-                    <div class="row d-flex justify-content-center align-items-center  text-dark">
+                <div class="container pb-5 card">
+                    <div class="row d-flex justify-content-center align-items-center text-dark">
                         <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-5 ">
-                            <div class="img">
+                            <div class="img-fluid">
                                 <img src={profil} alt="" class=" w-100"></img>
                             </div>
                         </div>
                         <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-6 pt-5 ">
-                            <h1 class="text-orange text-uppercase mb-4 font-weight-bold text-left">
+                            <h4 class="text-dark text-uppercase mb-4 fw-bold text-left">
                                 Tentang Kami
-                            </h1>
+                            </h4>
                             <p>
                                 Taman Baca Masyarakat (TBM) Manggala pustaka
                                 merupakan satu² nya Taman baca yang ada di desa
@@ -37,7 +37,7 @@ const About = () => {
                                 masyarakat
                             </p>
                             <button
-                                class="btn header-btn about-btn"
+                                class="btn btn-primary"
                                 type="submit"
                                 href="https://www.instagram.com/manggalapustaka/"
                             >
