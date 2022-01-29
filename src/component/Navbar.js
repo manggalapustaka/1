@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../img/logo1.png";
+import { button2 } from "./button/Button";
 
 const Navbar = () => {
     return (
         <div className="header-inner">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg p-0">
                 <div class="container">
                     <a class="navbar-brand" href="  ">
                         <img
@@ -58,15 +59,10 @@ const Navbar = () => {
                                 </a>
                             </li>
                         </ul>
-                        <form class="d-flex my-2 my-lg-0 justify-content-center">
-                            <button
-                                class="btn header-btn "
-                                type="submit"
-                                href="https://www.instagram.com/manggalapustaka/"
-                            >
-                                Follow US
-                            </button>
-                        </form>
+
+                        <a href="https://www.instagram.com/manggalapustaka/">
+                            {button2()}
+                        </a>
                     </div>
                 </div>
             </nav>

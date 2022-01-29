@@ -1,0 +1,28 @@
+.about .img {
+    align-content: center;
+    width: 100%;
+    padding: 0 50px;
+}
+.about img {
+    cursor: pointer;
+    align-self: center;
+    opacity: 0.9;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+}
+.about .about-btn {
+    color: black;
+    background: transparent;
+    border: 1px solid tomato;
+}
+
+.about .about-btn:hover {
+    color: white;
+    background: rgb(255, 99, 71);
+}
+.about .col-md-5 {
+    text-align: justify;
+}
