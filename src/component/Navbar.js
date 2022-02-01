@@ -5,9 +5,9 @@ import { button2 } from "./button/Button";
 const Navbar = () => {
     return (
         <div className="header-inner">
-            <nav class="navbar navbar-expand-lg p-0">
-                <div class="container">
-                    <a class="navbar-brand" href="  ">
+            <nav className="navbar navbar-expand-lg p-0">
+                <div className="container">
+                    <a className="navbar-brand" href="  ">
                         <img
                             className="img-fluid "
                             width="60"
@@ -16,7 +16,7 @@ const Navbar = () => {
                         />
                     </a>
                     <button
-                        class="navbar-toggler"
+                        className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNav"
@@ -29,39 +29,41 @@ const Navbar = () => {
                         </span>
                     </button>
                     <div
-                        class="collapse navbar-collapse justify-content-end text-center"
+                        className="collapse navbar-collapse justify-content-end text-center"
                         id="navbarNav"
                     >
-                        <ul class="navbar-nav m-auto text-center text-dark">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#home">
+                        <ul className="navbar-nav m-auto text-center text-dark">
+                            <li className="nav-item active">
+                                <a className="nav-link" href="#home">
                                     Home
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#about">
                                     Tentang Kami
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#visi">
+                            <li className="nav-item">
+                                <a className="nav-link " href="#visi">
                                     Visi & Misi
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#kegiatan">
+                            <li className="nav-item">
+                                <a className="nav-link " href="#kegiatan">
                                     Kegiatan
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#kontak">
+                            <li className="nav-item">
+                                <a className="nav-link " href="#kontak">
                                     Kontak
                                 </a>
                             </li>
                         </ul>
-                        <a href="https://www.instagram.com/manggalapustaka/">
-                            {button2()}
-                        </a>
+                        <div className=" my-2 my-lg-0 ">
+                            <a href="https://www.instagram.com/manggalapustaka/">
+                                {button2()}
+                            </a>
+                        </div>
                     </div>
                 </div>
             </nav>

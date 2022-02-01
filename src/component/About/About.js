@@ -3,6 +3,7 @@ import "./About.css";
 import profil from "../../img/profil.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import proposal from "../../file/proposal.pdf";
 
 const About = () => {
     useEffect(() => {
@@ -13,25 +14,29 @@ const About = () => {
         AOS.refresh();
     }, []);
     return (
-        <section class="about  " id="about">
-            <div class="jumbotron ">
-                <div class="container pb-5 card">
-                    <div class="row d-flex justify-content-center align-items-center text-dark">
-                        <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-5 ">
+        <section className="about  " id="about">
+            <div className="jumbotron ">
+                <div className="container pb-5 card">
+                    <div className="row d-flex justify-content-center align-items-center text-dark">
+                        <div className="col-md-5 col-lg-5 col-xl-5 mx-auto mt-5 ">
                             <div
-                                class="img-fluid"
+                                className="img-fluid"
                                 data-aos="fade-right"
                                 data-aos-offset="300"
                                 data-aos-easing="ease-in-sine"
                             >
-                                <img src={profil} alt="" class=" w-100"></img>
+                                <img
+                                    src={profil}
+                                    alt=""
+                                    className=" w-100"
+                                ></img>
                             </div>
                         </div>
                         <div
-                            class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-6 pt-5 "
+                            className="col-md-5 col-lg-5 col-xl-5 mx-auto mt-6 pt-5 "
                             data-aos="fade-up-left"
                         >
-                            <h4 class="text-dark text-uppercase mb-4 fw-bold text-left">
+                            <h4 className="text-dark text-uppercase mb-4 fw-bold text-left">
                                 Tentang Kami
                             </h4>
                             <p>
@@ -53,13 +58,15 @@ const About = () => {
                                 meningkatkan perekonomian dan pemberdayaan
                                 masyarakat
                             </p>
-                            <button
-                                class="btn btn-primary"
+                            <a
+                                className="btn btn-primary"
+                                href={proposal}
                                 type="submit"
-                                href="https://www.instagram.com/manggalapustaka/"
+                                target="_blank"
+                                rel="noreferrer"
                             >
-                                let's see
-                            </button>
+                                Proposal
+                            </a>
                         </div>
                     </div>
                 </div>
