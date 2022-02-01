@@ -1,19 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import profil from "../../img/profil.jpeg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            delay: 500,
+        });
+        AOS.refresh();
+    }, []);
     return (
         <section class="about  " id="about">
             <div class="jumbotron ">
                 <div class="container pb-5 card">
                     <div class="row d-flex justify-content-center align-items-center text-dark">
                         <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-5 ">
-                            <div class="img-fluid">
+                            <div
+                                class="img-fluid"
+                                data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"
+                            >
                                 <img src={profil} alt="" class=" w-100"></img>
                             </div>
                         </div>
-                        <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-6 pt-5 ">
+                        <div
+                            class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-6 pt-5 "
+                            data-aos="fade-up-left"
+                        >
                             <h4 class="text-dark text-uppercase mb-4 fw-bold text-left">
                                 Tentang Kami
                             </h4>

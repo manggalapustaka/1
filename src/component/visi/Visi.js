@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Visi.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Visi = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 800,
+            delay: 500,
+        });
+        AOS.refresh();
+    }, []);
     return (
         <section class="visi  " id="visi">
             <div class="jumbotron ">
                 <div class="container px-5 pb-5 card">
-                    <div class="row d-flex justify-content-center align-items-center text-dark">
+                    <div
+                        class="row d-flex justify-content-center align-items-center text-dark"
+                        data-aos="zoom-in-left"
+                    >
                         <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mt-5 ">
                             <h4 class="text-dark text-uppercase mb-4 fw-bold text-left">
                                 VISI

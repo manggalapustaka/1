@@ -1,6 +1,7 @@
 import React from "react";
 
 const Footer = () => {
+    // CONTENT
     return (
         <section className="py-5 pb-0 footer bg-grey" id="kontak">
             <div className="container px-5 my-5 ">
@@ -52,20 +53,6 @@ const Footer = () => {
                         </div>
                     </div>
                     <div class="col-md-5 offset-lg-1 col-lg-5 col-xl-5 mb-5">
-                        <div
-                            class="alert alert-success align-items-center alert-dismissible "
-                            role="alert"
-                            id="myAlert"
-                        >
-                            Thanks your email submited
-                            <button
-                                type="button"
-                                class="btn-close"
-                                data-bs-dismiss="alert"
-                                aria-label="Close"
-                            ></button>
-                        </div>
-
                         <h5 class="text-uppercase mb-4 font-weight-bold text-dark">
                             Hubungi Kami
                         </h5>
@@ -85,7 +72,6 @@ const Footer = () => {
                                 name="_captcha"
                                 value="false"
                             ></input>
-
                             <input
                                 type="hidden"
                                 name="_next"
@@ -129,11 +115,7 @@ const Footer = () => {
                                     required
                                 ></textarea>
                             </div>
-                            <button
-                                class="btn btn-primary"
-                                onclick="alertFunction()"
-                                type="submit"
-                            >
+                            <button class="btn btn-primary" type="submit">
                                 Send
                             </button>
                         </form>

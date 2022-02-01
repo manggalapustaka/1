@@ -8,6 +8,7 @@ import imgpanahan from "../../img/galery/10.jpg";
 import imgkesehatan from "../../img/galery/2.jpg";
 import imgpertanian from "../../img/galery/5.jpg";
 
+// satu
 export const Kegiatan = () => {
     return (
         <section class="kegiatan  " id="kegiatan">
@@ -69,6 +70,7 @@ export const Kegiatan = () => {
                                             yang dilaksanakan setiap hari selasa
                                             dan jum'at{" "}
                                         </p>
+                                        <br />
                                         <a
                                             href="https://www.instagram.com/manggalapustaka/"
                                             class="btn btn-primary text-orange"
@@ -83,6 +85,7 @@ export const Kegiatan = () => {
                                     <img
                                         src={imgkesenian}
                                         class="d-block w-100"
+                                        height="180"
                                         alt="..."
                                     ></img>
                                     <div class="card-body">
@@ -95,6 +98,9 @@ export const Kegiatan = () => {
                                             menggali bakat serta mengasah
                                             ketrampilan anak sejak dini mungkin
                                         </p>
+                                        <br />
+                                        <br />
+
                                         <a
                                             href="https://www.instagram.com/manggalapustaka/"
                                             class="btn btn-primary"
@@ -150,6 +156,7 @@ export const Kegiatan = () => {
                                             dianjurkan oleh Rosulullah SAW yang
                                             dilaksanakan setiap sebulan sekali
                                         </p>
+                                        <br />
                                         <a
                                             href="https://www.instagram.com/manggalapustaka/"
                                             class="btn btn-primary"
@@ -188,10 +195,9 @@ export const Kegiatan = () => {
                 </div>
             </div>
         </section>
-        // kedua
     );
 };
-
+// Kedua
 export const Kegiatan2 = () => {
     return (
         <section class="kegiatan" id="kegiatan">
@@ -200,92 +206,64 @@ export const Kegiatan2 = () => {
                     <h4 class="text-dark text-uppercase mb-4 fw-bold text-center">
                         KEGIATAN MASYARAKAT
                     </h4>
-                    <div
-                        id="ExampleControls"
-                        class="carousel slide"
-                        data-bs-ride="carousel"
-                    >
-                        <div class="carousel-inner carousel-inner2 justify-content-center">
-                            <div class="carousel-item active carousel-item2">
-                                <div class="card">
-                                    <img
-                                        src={imgkesehatan}
-                                        class="d-block w-100"
-                                        alt="..."
-                                    ></img>
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            Pengecekan Kesehatan Masyarakat
-                                        </h5>
-                                        <p class="card-text">
-                                            Layanan kesehatan ini dilaksanakan
-                                            seminggu sekali, dengan tujuan agar
-                                            lingkungan masyarakat yang sehat dan
-                                            aman dari penyakit
-                                        </p>
-                                        <a
-                                            href="https://www.instagram.com/manggalapustaka/"
-                                            class="btn btn-primary"
-                                        >
-                                            Go somewhere
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item carousel-item2">
-                                <div class="card">
-                                    <img
-                                        src={imgpertanian}
-                                        class="d-block w-100"
-                                        alt="..."
-                                    ></img>
-                                    <div class="card-body">
-                                        <h5 class="card-title">
-                                            Diskusi Pertanian
-                                        </h5>
-                                        <p class="card-text">
-                                            program ini bertujuan untuk
-                                            meningkatkan perekonomian masyarakat
-                                            dengan mempelajari hal baru tentang
-                                            efisiensi, efektifitas dan ekonomis
-                                            seputar pertanian serta
-                                            memperdayakan masyarakat agar lebih
-                                            maju
-                                        </p>
-                                        <a
-                                            href="https://www.instagram.com/manggalapustaka/"
-                                            class="btn btn-primary"
-                                        >
-                                            Go somewhere
-                                        </a>
-                                    </div>
+
+                    <div class="carousel-inner carousel-inner2 justify-content-center">
+                        <div class="carousel-item active carousel-item2">
+                            <div class="card">
+                                <img
+                                    src={imgkesehatan}
+                                    class="d-block w-100"
+                                    alt="..."
+                                ></img>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Pengecekan Kesehatan Masyarakat
+                                    </h5>
+                                    <p class="card-text">
+                                        Layanan kesehatan ini dilaksanakan
+                                        seminggu sekali, dengan tujuan agar
+                                        lingkungan masyarakat yang sehat dan
+                                        aman dari penyakit
+                                    </p>
+                                    <br />
+                                    <br />
+                                    <a
+                                        href="https://www.instagram.com/manggalapustaka/"
+                                        class="btn btn-primary"
+                                    >
+                                        Go somewhere
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <button
-                            class="carousel-control-prev control-prev2"
-                            type="button"
-                            data-bs-target="#ExampleControls"
-                            data-bs-slide="prev"
-                        >
-                            <span
-                                class="carousel-control-prev-icon"
-                                aria-hidden="true"
-                            ></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button
-                            class="carousel-control-next control-next2"
-                            type="button"
-                            data-bs-target="#ExampleControls"
-                            data-bs-slide="next"
-                        >
-                            <span
-                                class="carousel-control-next-icon"
-                                aria-hidden="true"
-                            ></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <div class="carousel-item carousel-item2">
+                            <div class="card">
+                                <img
+                                    src={imgpertanian}
+                                    class="d-block w-100"
+                                    alt="..."
+                                ></img>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Diskusi Pertanian
+                                    </h5>
+                                    <p class="card-text">
+                                        program ini bertujuan untuk meningkatkan
+                                        perekonomian masyarakat dengan
+                                        mempelajari hal baru tentang efisiensi,
+                                        efektifitas dan ekonomis seputar
+                                        pertanian serta memperdayakan masyarakat
+                                        agar lebih maju
+                                    </p>
+                                    <a
+                                        href="https://www.instagram.com/manggalapustaka/"
+                                        class="btn btn-primary"
+                                    >
+                                        Go somewhere
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
