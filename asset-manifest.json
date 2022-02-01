@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.8ea0e583.css",
-    "main.js": "/home/static/js/main.fac15fae.js",
+    "main.css": "/home/static/css/main.b5241861.css",
+    "main.js": "/home/static/js/main.c9d4214e.js",
     "static/js/787.08f58dd6.chunk.js": "/home/static/js/787.08f58dd6.chunk.js",
     "static/media/bg2.jpg": "/home/static/media/bg2.9617cecb3ef1848a3964.jpg",
     "static/media/proposal.pdf": "/home/static/media/proposal.01cb9b82533d7f563441.pdf",
@@ -16,12 +16,12 @@
     "static/media/12.jpg": "/home/static/media/12.69e47f2a174f6a2d46dc.jpg",
     "static/media/BG.jpg": "/home/static/media/BG.eaab13448871d27d1144.jpg",
     "index.html": "/home/index.html",
-    "main.8ea0e583.css.map": "/home/static/css/main.8ea0e583.css.map",
-    "main.fac15fae.js.map": "/home/static/js/main.fac15fae.js.map",
+    "main.b5241861.css.map": "/home/static/css/main.b5241861.css.map",
+    "main.c9d4214e.js.map": "/home/static/js/main.c9d4214e.js.map",
     "787.08f58dd6.chunk.js.map": "/home/static/js/787.08f58dd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ea0e583.css",
-    "static/js/main.fac15fae.js"
+    "static/css/main.b5241861.css",
+    "static/js/main.c9d4214e.js"
   ]
 }
