@@ -9,16 +9,20 @@ import About from "../src/component/About/About";
 import Footer from "./component/footer/Footer";
 import Visi from "./component/visi/Visi";
 import { Kegiatan, Kegiatan2 } from "./component/kegiatan/Kegiatan";
+import Gallery from "./component/gallery/Gallery";
 
 function App() {
     return (
         <div className="App">
             <Navbar />
             <Hcontent />
-            <About />
-            <Visi />
-            <Kegiatan />
-            <Kegiatan2 />
+            <div className="App-bg-content">
+                <About />
+                <Visi />
+                <Kegiatan />
+                <Kegiatan2 />
+                <Gallery />
+            </div>
             <Footer />
         </div>
     );

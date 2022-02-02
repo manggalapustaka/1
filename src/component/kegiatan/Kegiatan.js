@@ -197,6 +197,11 @@ export const Kegiatan = () => {
         </section>
     );
 };
+
+//
+//
+//
+//
 // Kedua
 export const Kegiatan2 = () => {
     return (
