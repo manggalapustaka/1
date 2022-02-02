@@ -61,22 +61,18 @@ const Footer = () => {
                             action="https://formsubmit.co/7937f2533162208d79e89227166e58de"
                             method="POST"
                         >
-                            <input
-                                type="hidden"
-                                name="_honey"
-                                value="false"
-                            ></input>
+                            <input type="hidden" name="_honey" value="false" />
 
                             <input
                                 type="hidden"
                                 name="_captcha"
                                 value="false"
-                            ></input>
+                            />
                             <input
                                 type="hidden"
                                 name="_next"
-                                value="https://manggalapustaka.github.io/home3/manggalp.html#kontak"
-                            ></input>
+                                value="https://manggalapustaka.github.io/home/#kontak"
+                            />
                             <div class="mb-3">
                                 <label for="fullname" class="form-label ">
                                     Full Name
