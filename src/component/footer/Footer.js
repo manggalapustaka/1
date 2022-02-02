@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./contact";
 
 const Footer = () => {
     // CONTENT
@@ -60,13 +61,12 @@ const Footer = () => {
                             action="https://formsubmit.co/7937f2533162208d79e89227166e58de"
                             method="POST"
                         >
-                            {/* <!-- HONEYPOT --> */}
                             <input
                                 type="hidden"
                                 name="_honey"
                                 value="false"
                             ></input>
-                            {/* <!-- DISABLE CAPTCHA --> */}
+
                             <input
                                 type="hidden"
                                 name="_captcha"
@@ -115,9 +115,7 @@ const Footer = () => {
                                     required
                                 ></textarea>
                             </div>
-                            <button class="btn btn-primary" type="submit">
-                                Send
-                            </button>
+                            <Contact />
                         </form>
                     </div>
                 </div>
