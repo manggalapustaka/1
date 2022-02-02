@@ -35,37 +35,9 @@
                 }
             });
         });
+    </script>
 
-        var multipleCardCarousel = document.querySelector("#ExampleControls");
-        if (window.matchMedia("(min-width: 1200px)").matches) {
-            var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-                interval: false,
-            });
-            var carouselWidth = $(".carousel-inner2")[0].scrollWidth;
-            var cardWidth = $(".carousel-item2").width();
-            var scrollPosition = 0;
-            $("#ExampleControls .control-next2").on("click", function () {
-                if (scrollPosition < carouselWidth - cardWidth * 4) {
-                    scrollPosition += cardWidth;
-                    $("#ExampleControls .carousel-inner2").animate(
-                        { scrollLeft: scrollPosition },
-                        200
-                    );
-                }
-            });
-            $("#ExampleControls .control-prev2").on("click", function () {
-                if (scrollPosition > 0) {
-                    scrollPosition -= cardWidth;
-                    $("#ExampleControls .carousel-inner2").animate(
-                        { scrollLeft: scrollPosition },
-                        200
-                    );
-                }
-            });
-        } else {
-            $(multipleCardCarousel).addClass("slide");
-        }
-
+    <script>
         var typed = new Typed(".auto-input", {
             strings: ["Selamat datang di Perpustakaan"],
             typeSpeed: 100,
@@ -87,7 +59,8 @@
                 );
             }
         });
-
+    </script>
+    <script>
         var myAlert = document.getElementById("myAlert");
         myAlert.style.display = "none";
 

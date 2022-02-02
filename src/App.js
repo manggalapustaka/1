@@ -13,7 +13,7 @@ import Gallery from "./component/gallery/Gallery";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App ">
             <Navbar />
             <Hcontent />
             <div className="App-bg-content">
@@ -23,6 +23,7 @@ function App() {
                 <Kegiatan2 />
                 <Gallery />
             </div>
+
             <Footer />
         </div>
     );

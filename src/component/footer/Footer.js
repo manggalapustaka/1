@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "./contact";
+import "./footer.css";
 
 const Footer = () => {
     // CONTENT
@@ -102,7 +103,7 @@ const Footer = () => {
                                     Massage
                                 </label>
                                 <textarea
-                                    placeholder="Entry massage..."
+                                    placeholder="Masukan Pesan..."
                                     class="form-control"
                                     id="massage"
                                     name="massage"
@@ -116,7 +117,7 @@ const Footer = () => {
                 </div>
             </div>
             <div class="text-center px-5 copyright text-secondary ">
-                © 2022 Manggala Hydrofarm. All rights reserved
+                © 2021 Manggala Pustaka. All rights reserved
             </div>
             <div className="border-footer  "></div>
         </section>
