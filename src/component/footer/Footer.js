@@ -7,48 +7,47 @@ const Footer = () => {
         <section className="py-5 pb-0 footer bg-grey" id="kontak">
             <div className="container px-5 my-5 ">
                 <div className="row gx-5 justify-content-center">
-                    <div className="col-lg-6 col-md-6 col-xl-6  mb-5 mb-lg-0">
+                    <div className="col-lg-5 col-md-5 col-xl-5  mb-5 mb-lg-0">
                         <h5 class="text-uppercase mb-4 font-weight-bold text-dark">
                             Profile
                         </h5>
                         <div className="footer-link d-block text-secondary ">
                             <p>
                                 {" "}
-                                <i class="fab fa-whatsapp "> </i> +62 8222 9617
-                                7554
+                                <i class="fas fa-map-marker-alt mr"> </i> Dus.
+                                Manggal RT 17/ Rw 06 Des. Simo Kec. Simo Kab.
+                                Boyolali
                             </p>
                             <p>
                                 {" "}
-                                <i class="fas fa-envelope "> </i>{" "}
-                                ManggalaHydrofarm@gmail.com
+                                <i class="fab fa-whatsapp mr"></i> 08153969986
                             </p>
                             <p>
                                 {" "}
-                                <i class="fas fa-map-marker-alt"> </i> Manggal
-                                RT 17, RW 06, Simo, Simo, Boyolali, Jawa tengah,
-                                Indonesia
+                                <i class="fas fa-envelope mr"></i>{" "}
+                                manggalapustaka@gmail.com
                             </p>
                             <div className="col-lg-6 col-md-6 col-xl-6  mb-5 mb-lg-0">
                                 <a
-                                    class="btn btn-primary btn-floating m-1"
+                                    class="btn btn-outline-primary btn-floating m-1"
                                     href="#!"
                                     role="button"
                                 >
-                                    <i class="fab fa-facebook-f"></i>
+                                    <i class=" fab fa-facebook-square"></i>
                                 </a>
                                 <a
-                                    class="btn btn-instagram btn-floating m-1"
+                                    class="btn btn-outline-dark btn-floating m-1"
                                     href="#!"
                                     role="button"
                                 >
                                     <i class="fab fa-instagram"></i>
                                 </a>
                                 <a
-                                    class="btn btn-web btn-floating text-white m-1"
+                                    class="btn btn-outline-danger btn-floating m-1"
                                     href="#!"
                                     role="button"
                                 >
-                                    <i class="fab fa-globe"></i>
+                                    <i class="fab fa-youtube"></i>
                                 </a>
                             </div>
                         </div>

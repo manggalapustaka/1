@@ -12,7 +12,7 @@ import { Kegiatan, Kegiatan2 } from "./component/kegiatan/Kegiatan";
 
 function App() {
     return (
-        <div>
+        <div className="App">
             <Navbar />
             <Hcontent />
             <About />

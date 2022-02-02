@@ -4,7 +4,7 @@ import { button2 } from "./button/Button";
 
 const Navbar = () => {
     return (
-        <div className="header-inner">
+        <div className="header-inner mx-auto ">
             <nav className="navbar navbar-expand-lg p-0">
                 <div className="container">
                     <a className="navbar-brand" href="  ">
@@ -59,11 +59,11 @@ const Navbar = () => {
                                 </a>
                             </li>
                         </ul>
-                        <div className=" my-2 my-lg-0 ">
+                        <form class=" my-lg-0 mb-3 justify-content-center">
                             <a href="https://www.instagram.com/manggalapustaka/">
                                 {button2()}
                             </a>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </nav>
