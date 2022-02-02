@@ -33,3 +33,15 @@
     background-size: cover;
     background-position: center center;
 }
+
+#introCarousel .carousel-item .color-text {
+    background: -webkit-linear-gradient(
+        32deg,
+        #03a9f4,
+        #f441a5,
+        #ffeb3b,
+        #03a9f4
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

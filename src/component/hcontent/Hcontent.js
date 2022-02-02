@@ -1,5 +1,5 @@
 import React from "react";
-import "../hcontent/Hcontent.css";
+import "./Hcontent.css";
 import proposal from "../../file/proposal.pdf";
 
 const Hcontent = () => {
@@ -93,8 +93,14 @@ const Hcontent = () => {
                         <div className="d-flex justify-content-center align-items-center h-100">
                             <div className="text-white text-center">
                                 <h2>
-                                    Event <u> Manggala Pustaka </u> dengan{" "}
-                                    <u> IYOIN LC SOLO </u>
+                                    Event
+                                    <u className="color-text fw-bold">
+                                        "Manggala Pustaka"
+                                    </u>
+                                    dengan
+                                    <u className="color-text fw-bold">
+                                        "IYOIN LC SOLO"
+                                    </u>
                                 </h2>
                                 <a
                                     className="btn btn-primary btn-lg m-2"
