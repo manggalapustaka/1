@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.1f9a5e07.css",
-    "main.js": "/home/static/js/main.bc41f479.js",
+    "main.css": "/home/static/css/main.1925f1af.css",
+    "main.js": "/home/static/js/main.e45151d9.js",
     "static/js/787.08f58dd6.chunk.js": "/home/static/js/787.08f58dd6.chunk.js",
     "static/media/bg2.jpg": "/home/static/media/bg2.9617cecb3ef1848a3964.jpg",
     "static/media/proposal.pdf": "/home/static/media/proposal.01cb9b82533d7f563441.pdf",
@@ -11,17 +11,19 @@
     "static/media/5.jpg": "/home/static/media/5.422caab6bf02dd12c0ed.jpg",
     "static/media/14.jpg": "/home/static/media/14.ed2c9900a69cb38aa29b.jpg",
     "static/media/10.jpg": "/home/static/media/10.ba3a527ccf09c3550442.jpg",
+    "static/media/8.jpg": "/home/static/media/8.86eb45f790af737ae27c.jpg",
+    "static/media/11.jpg": "/home/static/media/11.c1ddf08d50edaeac19f2.jpg",
     "static/media/4.jpg": "/home/static/media/4.87c18a774d48a0294f97.jpg",
     "static/media/logo1.png": "/home/static/media/logo1.83e677455f2355af8979.png",
     "static/media/12.jpg": "/home/static/media/12.69e47f2a174f6a2d46dc.jpg",
     "static/media/BG.jpg": "/home/static/media/BG.eaab13448871d27d1144.jpg",
     "index.html": "/home/index.html",
-    "main.1f9a5e07.css.map": "/home/static/css/main.1f9a5e07.css.map",
-    "main.bc41f479.js.map": "/home/static/js/main.bc41f479.js.map",
+    "main.1925f1af.css.map": "/home/static/css/main.1925f1af.css.map",
+    "main.e45151d9.js.map": "/home/static/js/main.e45151d9.js.map",
     "787.08f58dd6.chunk.js.map": "/home/static/js/787.08f58dd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f9a5e07.css",
-    "static/js/main.bc41f479.js"
+    "static/css/main.1925f1af.css",
+    "static/js/main.e45151d9.js"
   ]
 }
