@@ -35,14 +35,14 @@ export const Footer = () => {
                             <div className="col-lg-6 col-md-6 col-xl-6  mb-5 mb-lg-0">
                                 <a
                                     class="btn btn-outline-primary btn-floating m-1"
-                                    href="#!"
+                                    href="https://web.facebook.com/profile.php?id=100076998842478"
                                     role="button"
                                 >
                                     <i class=" fab fa-facebook-square"></i>
                                 </a>
                                 <a
                                     class="btn btn-outline-dark btn-floating m-1"
-                                    href="#!"
+                                    href="https://www.instagram.com/manggalapustaka/"
                                     role="button"
                                 >
                                     <i class="fab fa-instagram"></i>
