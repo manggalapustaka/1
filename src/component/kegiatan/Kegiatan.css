@@ -55,6 +55,6 @@
     max-height: 100%;
 }
 
-.kegiatan .card-text {
-    text-align: justify;
+#kegiatan .card-body {
+    height: auto;
 }
