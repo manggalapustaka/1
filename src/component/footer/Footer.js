@@ -2,11 +2,15 @@ import React from "react";
 import Contact from "./contact";
 import "./footer.css";
 
-const Footer = () => {
+export const BGFooter = () => {
+    return <div id="BGFooter"></div>;
+};
+
+export const Footer = () => {
     // CONTENT
     return (
-        <section className="py-5 pb-0 footer bg-grey" id="kontak">
-            <div className="container px-5 my-5 ">
+        <section className=" pb-0 footer bg-grey" id="kontak">
+            <div className="container px-5  ">
                 <div className="row gx-5 justify-content-center">
                     <div className="col-lg-5 col-md-5 col-xl-5  mb-5 mb-lg-0">
                         <h5 class="text-uppercase mb-4 font-weight-bold text-dark">
@@ -123,5 +127,3 @@ const Footer = () => {
         </section>
     );
 };
-
-export default Footer;

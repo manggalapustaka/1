@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import Navbar from "../src/component/Navbar";
 import Hcontent from "./component/hcontent/Hcontent";
 import About from "../src/component/About/About";
-import Footer from "./component/footer/Footer";
+import { Footer, BGFooter } from "./component/footer/Footer";
 import Visi from "./component/visi/Visi";
 import { Kegiatan, Kegiatan2 } from "./component/kegiatan/Kegiatan";
 import Gallery from "./component/gallery/Gallery";
@@ -23,7 +23,7 @@ function App() {
                 <Kegiatan2 />
                 <Gallery />
             </div>
-
+            <BGFooter />
             <Footer />
         </div>
     );

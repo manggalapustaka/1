@@ -13,7 +13,7 @@ function Gallery() {
 
     return (
         <div className="container">
-            <div class="row justify-content-center text-white pt-5 pb-5">
+            <div class="row justify-content-center text-white pt-5 pb-0">
                 <h4 className="text-dark text-uppercase mb-4 fw-bold text-center">
                     Gallery
                 </h4>
