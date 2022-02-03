@@ -50,7 +50,7 @@ export const Kegiatan = () => {
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item-padding-40-px"
                     >
-                        <div className="card mx-3">
+                        <div className="card card-bg mb-3 mx-3">
                             <img
                                 src={imgwarnai}
                                 className="img-fluid w-100"
@@ -76,7 +76,7 @@ export const Kegiatan = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="card mx-3">
+                        <div className="card card-bg mb-3 mx-3">
                             <img
                                 src={imgmengaji}
                                 className="img-fluid w-100"
@@ -93,6 +93,7 @@ export const Kegiatan = () => {
                                     hari selasa dan jum'at{" "}
                                 </p>{" "}
                                 <br />
+                                <br />
                                 <a
                                     href="https://www.instagram.com/manggalapustaka/"
                                     className="btn btn-primary text-orange"
@@ -102,7 +103,7 @@ export const Kegiatan = () => {
                             </div>
                         </div>
 
-                        <div className="card mx-3">
+                        <div className="card card-bg mb-3 mx-3">
                             <img
                                 src={imgkesenian}
                                 className=" w-100"
@@ -130,7 +131,7 @@ export const Kegiatan = () => {
                             </div>
                         </div>
 
-                        <div className="card mx-3">
+                        <div className="card card-bg mb-3 mx-3">
                             <img
                                 src={imgdarurat}
                                 className="img-fluid w-100"
@@ -156,7 +157,7 @@ export const Kegiatan = () => {
                             </div>
                         </div>
 
-                        <div className="card mx-3">
+                        <div className="card card-bg mb-3 mx-3">
                             <img
                                 src={imgpanahan}
                                 className="img-fluid w-100"
